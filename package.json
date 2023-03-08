@@ -1,0 +1,19 @@
+{
+  "name": "proyecto-pokemon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "dev": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "passport-facebook": "^3.0.0",
+    "readline-sync": "^1.4.10"
+  }
+}

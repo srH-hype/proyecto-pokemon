@@ -1,0 +1,32 @@
+###
+POST http://localhost:7000/entrenadores HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "Mario",
+    "pass": "999",
+    "pokemones": [1,2,3]
+}
+
+###
+GET http://localhost:7000/entrenadores HTTP/1.1
+
+###
+GET http://localhost:7000/entrenadores/638aa78822a2eafadbc0322f HTTP/1.1
+
+###
+GET http://localhost:7000/entrenadores/heri2@gmail.com HTTP/1.1
+
+###
+PUT http://localhost:7000/entrenadores/heri@gmail.com HTTP/1.1
+Content-Type: application/json
+
+{
+    "pokemones": [1,2,3,7,6]
+}
+
+###
+GET http://localhost:7000/
+
+###
+DELETE http://localhost:7000/api/entrenadores/6382848ac0d675fc2b3b1649 HTTP/1.1
